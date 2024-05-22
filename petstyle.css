@@ -1,0 +1,111 @@
+header {
+    background-color: #FFF8E3;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+
+.logo-container img {
+    height: 100px;
+    margin-right: 10px;
+}
+
+.site-title {
+    display: flex;
+    flex-direction: column;
+    color:  #B4846C;
+    font-weight: bold;
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 40px;
+}
+
+.title {
+    line-height: 1; 
+    margin-left: 5px; 
+}
+
+header img {
+    height: 100px;
+}
+
+header button {
+    font-family: 'Inter_FXH';
+    font-weight: bold;
+    font-size: 25px;
+    background-color: #FFF8E3;
+    color: #000;
+    border: none;
+    padding: 1px 60px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.page-buttons {
+    margin-top: 80px;
+}
+
+#home-highlight {
+    background-color: #ffffff;
+}
+
+body {
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+#desc {
+    color: #895840;
+}
+
+#content img {
+    width: 45%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#content .textbox {
+    width: 45%;
+    margin: 5px;
+}
+
+.get-your-pet {
+    display: inline-flex;
+    height: 40px;
+    width: 400px;
+    margin-bottom: 120px;
+    margin-left: 1200px;
+}
+
+.button-container button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.species-choice {
+    display: flex;
+    align-items: center;
+    padding: 100px 300px;
+    width: 200px;
+}
+
+.species-choice:hover {
+    width: 100px;
+}
