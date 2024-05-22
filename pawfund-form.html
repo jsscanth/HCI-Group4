@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pawfund Form</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        max-width: 1000px;
+        margin: 40px auto;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .user-info, .pet-info {
+        float: left;
+        width: 50%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .user-info {
+        background-color: #FFD8D8; 
+    }
+    .pet-info {
+        background-color: #A1BDA4; 
+    }
+    .form-group {
+        margin-bottom: 20px;
+    }
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group input[type="tel"],
+    .form-group input[type="file"] {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    .form-group input[type="radio"] {
+        margin-right: 5px;
+    }
+    .form-group label {
+        margin-right: 10px;
+    }
+    .form-group textarea {
+        width: calc(100% - 22px); 
+        padding: 10px;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    .form-group button {
+        padding: 10px 20px;
+        background-color: #E27690;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .form-group button:hover {
+        background-color: #a35668;
+    }
+</style>
+</head>
+<header>
+    <h1>PAWFUND FORM</h1>
+</header>
+<body>
+<div class="container">
+    <div class="user-info">
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" required>
+            </div>
+            <div class="form-group">
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="container">
+    <div class="pet-info">
+        <form action="#" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="petname">Pet Name:</label>
+                <input type="text" id="petname" name="petname" required>
+            </div>
+            <div class="form-group">
+                <label for="breed">Pet's Breed:</label>
+                <input type="text" id="breed" name="breed" required>
+            </div>
+            <div class="form-group">
+                <label>Pet Gender:</label>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female">
+            </div>
+            <div class="form-group">
+                <label for="condition">Pet's Condition:</label>
+                <textarea id="condition" name="condition" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="petpic">Upload Pet's Picture:</label>
+                <input type="file" id="petpic" name="petpic" accept="image/*" required>
+            </div>
+        </form>
+    </div>
+    <div style="clear:both;"></div>
+    <div class="form-group">
+        <button type="submit">Submit</button>
+    </div>
+</div>
+</body>
+</html>
