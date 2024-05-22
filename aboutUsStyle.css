@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+body {
+    background-color:white;
+    font-family: 'inter', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    background-color: #FFF8E3;
+}
+
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+
+.site-title{
+    display: flex;
+    flex-direction: column;
+    color:  #B4846C;
+    font-weight: bold;
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 2rem;
+}
+
+.title-part{
+    line-height: 1; 
+    margin-left: 5px; 
+}
+
+.ampersand{
+    margin-left: 17px;
+}
+
+.nav-links{
+    list-style-type: none;
+    display: flex;
+    margin-top: 110px;
+    margin-left: 2px;
+}
+
+.nav-links li{
+    /* margin-left: 90px; */
+    /* margin-right: 50px; */
+    font-size: 26px;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    padding: 0px;
+    text-align: center;
+}
+
+.list-btn{ 
+    display: flex; 
+    /* /* align-items:end; */
+}
+
+.Home{
+    margin-left: 250px;
+}
+
+.pet-needs{
+    margin-left: 60px;
+    margin-right: 40px;
+    color: white;
+}
+
+.pet-needs:hover{
+    color: rgba(90, 54, 48, 0.591);
+    cursor: pointer;
+}
+
+.pawfund{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.getpet{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.about{
+    background-color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 60px;
+    margin-right: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+}
+
+.about:hover{
+    color: rgba(90, 54, 48, 0.591);
+}
+
+
+.nav-links a:hover{
+    color:  #B4846C; 
+}
+
+
+.btn-icon{
+    background-color: #FFF8E3;
+    /* padding-left: 40px; */
+}
+
+
+/* content style start */
+
+.about-image{
+    width: 100%;
+}
+
+
+.ourmission{
+    color: white;
+    margin-top: 20px;
+    letter-spacing: 5px;
+    font-size: 3.5rem;
+    font-family: 'lexend exa', arial;
+}
+
+.aboutme{
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    font-family: 'lexend exa', arial;
+    margin-top: 15px;
+}
+
+
+
+.downme{
+    color: white;
+    font-family: 'lexend exa', arial;
+    font-size: 19px;
+}
+.downme1{
+    color: white;
+    font-family: 'lexend exa', arial;
+    font-size: 19px;
+    margin-bottom: 50px;
+}
+.downme2{
+    color: white;
+    font-family: 'lexend exa', arial;
+    font-size: 19px;
+    margin-bottom: 50px;
+}
+.downme3{
+    color: white;
+    font-family: 'lexend exa', arial;
+    font-size: 19px;
+    margin-bottom: 50px;
+}
+
+.aboutus-title{
+    background-color:  #B4846C;
+    border: solid;
+    border-color:  rgb(125, 90, 80);
+    text-align: center;
+    width: 1400px;
+    height: 200px;
+    margin: auto;
+    margin-top: 45px;
+    left: 50%;
+    width: 1500px;
+}
+
+.about-title{
+    background-color:  #B4846C;
+    border: solid;
+    border-color:  rgb(125, 90, 80);
+    text-align: center;
+    width: 1400px;
+    height: 600px;
+    margin: auto;
+    margin-top: 45px;
+    left: 50%;
+    width: 1500px;
+    margin-bottom: 0px;
+}
+
+.box{
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+.welcomepat{
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    font-family: 'lexend exa', arial;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    text-align:center
+}
+
+.animal-img{
+   display: block;
+   margin-left: auto;
+
+}
+
+.footer{
+    background-color: #B4846C;
+    color: white;
+    height: 450px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    padding-top: 90px;
+    text-align: center;
+}
+
+.foot{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  

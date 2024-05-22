@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+body {
+    background-color: #B4846C;
+    font-family: 'inter', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    background-color: #FFF8E3;
+}
+
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+
+.site-title{
+    display: flex;
+    flex-direction: column;
+    color:  #B4846C;
+    font-weight: bold;
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 2rem;
+}
+
+.title-part{
+    line-height: 1; 
+    margin-left: 5px; 
+}
+
+.ampersand{
+    margin-left: 17px;
+}
+
+.nav-links{
+    list-style-type: none;
+    display: flex;
+    margin-top: 110px;
+    margin-left: 2px;
+}
+
+.nav-links li{
+    /* margin-left: 90px; */
+    /* margin-right: 50px; */
+    font-size: 26px;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    padding: 0px;
+    text-align: center;
+}
+
+/* .list-btn{ 
+    /* display: flex;
+    align-items:end; */
+
+.Home{
+    margin-left: 250px;
+}
+
+.pet-needs{
+    background-color: #B4846C;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 60px;
+    margin-right: 40px;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.pet-needs:hover{
+    color: rgba(90, 54, 48, 0.591);
+    cursor: pointer;
+}
+
+.pawfund{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.getpet{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.about{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.nav-links a:hover{
+    color:  #B4846C; 
+}
+
+
+.btn-icon{
+    background-color: #FFF8E3;
+    /* padding-left: 40px; */
+
+}
+
+
+
+
+
+
+
+
