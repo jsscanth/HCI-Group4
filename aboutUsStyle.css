@@ -11,14 +11,22 @@ body {
     font-family: 'inter', sans-serif;
 }
 
+.navigation-bar{
+    display: flex;
+    flex-direction: row;
+    background-color: #FFF8E3;
+}
+
 .navbar{
     display: flex;
+    flex-direction: row;
     background-color: #FFF8E3;
 }
 
 
 .logo-container{
     display: flex;
+    flex-direction: row;
     align-items: center;
     width: 200px;
 }
@@ -44,6 +52,7 @@ body {
 .nav-links{
     list-style-type: none;
     display: flex;
+    width: 100%;
     margin-top: 110px;
     margin-left: 2px;
 }
@@ -51,6 +60,7 @@ body {
 .nav-links li{
     /* margin-left: 90px; */
     /* margin-right: 50px; */
+    width: 100%;
     font-size: 26px;
     vertical-align: top;
     white-space: nowrap;
@@ -64,13 +74,16 @@ body {
 }
 
 .list-btn{ 
-    display: flex; 
-    /* /* align-items:end; */
+    display: flex;
+    flex-direction: row;
+    align-items:end;
+    justify-content: space-between;
 }
 
 .Home{
     margin-left: 250px;
 }
+
 
 .pet-needs{
     margin-left: 60px;
@@ -117,9 +130,24 @@ body {
 }
 
 
-.btn-icon{
+.btn-icon {
     background-color: #FFF8E3;
-    /* padding-left: 40px; */
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn-icon:hover {
+    background-color: #B4846C;
+}
+.icon {
+    width: 24px;
+    height: 24px;
+    color: #B4846C;
 }
 
 
@@ -222,23 +250,55 @@ body {
 
 }
 
-.footer{
-    background-color: #B4846C;
+footer {
+    background-color:#B4846C;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
     color: white;
-    height: 450px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 50px;
-    padding-top: 90px;
-    text-align: center;
 }
 
-.foot{
-    font-size: 20px;
-    font-weight: bold;
+.contact-info, .social-media, .contact-form {
+    width: 20%;
 }
 
+.social-media a{
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+    color:white;
+}
 
+.social-media a:hover{
+    color: blue;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input, .contact-form textarea {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+.ga{
+    margin-bottom: 1rem;
+}
 
 
 
