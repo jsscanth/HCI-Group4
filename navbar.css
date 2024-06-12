@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF8E3;
+}
+
+.header-icons img {
+    width: 5dvh;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+
+.site-title {
+    display: flex;
+    flex-direction: column;
+    color:  #B4846C;
+    font-weight: bold;
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 2rem;
+}
+
+.title-part {
+    line-height: 1; 
+    margin-left: 5px; 
+}
+
+.ampersand {
+    margin-left: 17px;
+}
+
+.top-header {
+    display: block;
+    flex-direction: row;
+}
+
+.navbar {
+    background-color: #FFF8E3;
+    list-style-type: none;
+    padding: 5px;
+}
+
+.menu {
+    margin-left: 24vh;
+}
+
+.menu a {
+    margin: 1vh;
+    font-size: 20px;
+    font-family: 'Lexend Exa';
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-highlight {
+    background-color: #fff;
+    border: 10px solid #fff;
+    border-radius: 5px;
+}
+
+.header-icons {
+    margin-right: 3dvh;
+    display: flex;
+}
+
+.header-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.search-bar {
+    display: none;
+    padding: 1rem;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.cart-dropdown {
+    display: none;
+    position: absolute;
+    right: 1rem;
+    top: 4rem;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    z-index: 1000;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.cart-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+}
+
+.cart-item p {
+    margin: 0.5rem 0;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-controls button {
+    background: none;
+    border: 1px solid #ccc;
+    padding: 0.25rem;
+    cursor: pointer;
+}
+
+.quantity-controls span {
+    margin: 0 0.5rem;
+}
+
+.cart-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.empty-cart-message {
+    display: none;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.profile-popup {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.profile-popup form {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-popup label {
+    margin-bottom: 0.5rem;
+}
+
+.profile-popup input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.profile-popup button {
+    padding: 0.5rem;
+    background-color: #a97d67;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color:#FFF8E3;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    gap: 5vh;
+    color: #a97d67;
+}
+
+.contact-info, .social-media, .contact-form {
+    width: 20%;
+}
+
+.social-media a{
+    width: 24px;
+    height: 24px;
+    margin: 5px;
+    color:#a97d67;
+}
+
+.social-media a:hover{
+    color: blue;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-bar {
+    background-color: pink;
+    border-radius: 3px;
+}
+
+.contact-form input, .contact-form textarea {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #7D5A50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #83635a;
+}
+
+
+@media (width <= 430px) {
+    .logo-container img{
+        width: 100px;
+    }
+
+    .site-title {
+        font-size: 22px;
+    }
+
+    .menu {
+        margin-left: 2vh;
+    }
+
+    .menu a {
+        margin: 0.3vh;
+        font-size: 10px;
+    }
+}
+
+@media (431px <= width <= 840px) {
+    .menu {
+        margin-left: 16vh;
+    }
+
+    .menu a {
+        font-size: 14px;
+    }
+}
+
+@media (width >= 821px) {
+    .menu {
+        margin-left: 18vh;
+    }
+
+    .menu a {
+        font-size: 18px;
+    }
+
+    .header-icons {
+        margin-left: auto;
+    }
+}
